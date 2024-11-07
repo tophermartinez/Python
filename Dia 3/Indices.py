@@ -14,3 +14,9 @@ resultado = mi_texto.index(5)# busca la letra en el indice 5
 # resultado = mi_texto.rindex("a") #busca desde derecha a izquierda y devuelve el indice
 
 print(resultado)
+
+frase = "En teoría, la teoría y la práctica son los mismos. En la práctica, no lo son."
+
+palabra = frase.index("práctica")
+
+print(palabra)
